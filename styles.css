@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Light/Dark Theme */
+:root {
+    --bg: white;
+    --text: black;
+}
+
+.dark {
+    --bg: black;
+    --text: white;
+}
